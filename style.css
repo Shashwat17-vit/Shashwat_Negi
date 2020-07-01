@@ -1,0 +1,150 @@
+*{ 
+font-family: sans-serif;
+ }
+body
+{ 
+margin:0;
+padding: 0;
+}
+section#particles-js
+{ 
+padding: 0;
+margin:0;
+height:100%;
+width:100%;
+position: fixed;
+background: #313030;
+
+}
+.con{
+   text-align: center;
+   position: static;
+   top:25%;
+   left:50%;
+    width:100%;
+
+}
+.con span{
+ color: white;
+  display: block;
+
+}
+.text1{ 
+font-size:80px;
+font-weight:80px;
+letter-spacing: 1px;
+margin-bottom:1px;
+position: relative;
+animation: text 3s 1; 
+ }
+ .text2{ 
+font-size:50px;
+color: #000000;
+position: relative;
+
+ }
+
+@keyframes text{ 
+0%{ 
+  color:black;
+  margin-bottom:1px;
+ }
+30%
+{ 
+  letter-spacing: 100px
+  margin-bottom:30px;
+}
+85%
+{ 
+  letter-spacing: 15px;
+  margin-bottom:30px;
+}
+ }
+
+.resume{ 
+  text-align: center;
+  display:inline-block;
+  width:100%;
+  margin:0;
+  color:#ffffff;
+  z-index: 3;
+  position: relative;
+ }
+
+.icons{
+  text-align: center;
+  position: static;
+  display:inline-block;
+  width:100%;
+  margin:0;
+  z-index: 3;
+
+}
+.ico{
+  text-align: center;
+  width: 20px;
+  display: inline;
+  height: 20px;
+  position: relative;
+  background: transparent;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  margin: 22px 8px;
+  z-index: 3;
+}
+.ico-res{
+  
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 10px 8px 8px 8px;
+  position: relative;
+  background: transparent;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  margin: 0px 8px;
+  z-index: 3;
+}
+.ico:hover{
+  transform: translateY(-4px);
+}
+
+.ico-res:hover{
+  transform: translateY(-4px);
+}
+.ico:hover .fb{
+  color:white;
+}
+.ico:hover .lin{
+  color:white;
+}
+.ico:hover .git{
+  color:white;
+}
+.ico:hover .ig{
+  color:white;
+}
+.ico:hover .mail{
+  color:white;
+}
+.ico:hover .twit{
+  color:white;
+}
+.ico-res:hover .res{
+  color:white;
+}
+
+
+.work 
+{color:#ffffff;
+z-index: 5;
+position: relative;
+}
+.project
+{color:#ffffff;
+z-index: 5;
+position: relative;
+}
+
+
+
